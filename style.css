@@ -98,6 +98,10 @@ body{
     justify-content: center;
 }
 
+  #servicos{
+    padding: 10px;
+  }
+
 #servicos p{
     font-size: 30pt;
     color: white;
