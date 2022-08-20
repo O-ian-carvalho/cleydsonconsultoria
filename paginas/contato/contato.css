@@ -27,6 +27,7 @@ form h2{
 
 .informacoes{
     display: flex;
+    flex-wrap: wrap;
 }
 .informacoes #input{
     width: 290px;
@@ -76,4 +77,26 @@ form h2{
     border: white dashed 1px;
     border-radius: 4px;
     width: 45px;
+}
+@media (max-width: 700px){
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form h2{
+        margin-top: 20px;
+    }
+
+    .informacoes #input{
+        width: 300px;
+        margin-right: 20px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .mensagem textarea{
+        width:  320px;
+    }
 }
