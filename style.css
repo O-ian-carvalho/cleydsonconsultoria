@@ -285,3 +285,15 @@ body{
 
 
 }
+
+
+@media (max-width: 700px){
+    #servicos p{
+        font-size: 16pt; 
+        width: 300px;
+        font-family: sans-serif, sans-serif;
+        font-weight: bold; 
+        
+    }
+}
+
