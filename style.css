@@ -240,10 +240,12 @@ body{
   }
 
   #servicos p{
-    font-size: 20pt; 
-    width: 300px;
-    font-family: sans-serif, sans-serif;
-    font-weight: bold; 
+    color: #fff;
+    width: 90%;
+    font-size: 22pt;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 10px;
     
 }
 
