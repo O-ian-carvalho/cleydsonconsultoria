@@ -74,6 +74,7 @@
 }
 .redesocial h3{
     color: #fff;
+    font-size: 17pt;
 }
 .redesocial a{
     text-decoration: none;
@@ -163,5 +164,13 @@
     }
     .allRede2{
        width: 100%;
+    }
+
+    .redesocial img{
+        width: 60px;
+    }
+    .redesocial h3{
+        color: #fff;
+        font-size: 15pt;
     }
 }
