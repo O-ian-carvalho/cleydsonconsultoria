@@ -52,7 +52,7 @@ body{
 
 #listadecard{
     padding: 60px;
-    padding-top: 0;
+    padding-top: 0px;
     margin-top: -50px;
     display: flex;
     align-items: center;
@@ -65,9 +65,9 @@ body{
 
 #listadecard .cards{
     width: 250px; 
+    height: 405px;
     margin: 5px;
     margin-bottom: 10px;
-    height: 395px;
     text-align: center;   
     background-color:rgba(0, 0, 0, 0.301) ;
 }
@@ -80,7 +80,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding: 10px;
 
 }
 #listadecard .card-body p{
@@ -177,9 +177,8 @@ body{
     background-color: rgb(255, 255, 255);
 }
 #menu .navbar-brand img{
-    border: white dashed 1px;
     border-radius: 4px;
-    width: 45px;
+    width: 60px;
 }
 
 
@@ -226,13 +225,14 @@ body{
   }
 
   #div1inicio{
-    padding: 10%;
+    padding: 0;
     padding-top: 40px;
     padding-bottom: 80px;
+
   }
 
   #div2inicio{
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -248,28 +248,23 @@ body{
   }
 
   #servicos{
-    padding: 20px;
+    height: auto;
+    padding: 10%;
+    padding-top: 40px;
+    padding-bottom: 50px;
   }
   #servicos p{
     font-size: 20pt; 
     width: 300px;
     font-family: sans-serif, sans-serif;
     font-weight: bold; 
-    
 }
 
 #servicos img{
     width: 100px;
 }
 
-#listadecard .cards{
-    width: 300px; 
-    margin: 5px;
-    margin-bottom: 10px;
-    height: 405px;
-    text-align: center;   
-    background-color:rgba(0, 0, 0, 0.301) ;
-}
+
 
 .atendimento p{
     color: #fff;
@@ -286,17 +281,17 @@ body{
     width: 60px;
 }
 
-#servicos{
-   
-    height: 300px;
-   
-}
 
 .copy p{
     font-size: 10pt;
 }
 
+
+
+
 }
+
+
 
 @media (max-width: 550px){
     #servicos p{
@@ -306,5 +301,30 @@ body{
         font-weight: bold; 
         text-align: left;
     }
+    #listadecard{
+        
+        padding-top: 20px;
+        
 }
 
+#listadecard .cards img{
+    height: auto;
+    max-height: 400px;
+}
+
+#listadecard .cards{
+    width: 350px; 
+    margin: 10px;
+    text-align: center;   
+    background-color:rgba(0, 0, 0, 0.301) ;
+}
+
+
+
+#listadecard .card-body{
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+}
