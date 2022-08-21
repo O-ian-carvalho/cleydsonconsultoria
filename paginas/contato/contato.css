@@ -99,4 +99,8 @@ form h2{
     .mensagem textarea{
         width:  320px;
     }
+
+    form{
+        padding: 10px;
+    }
 }
