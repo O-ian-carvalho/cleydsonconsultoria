@@ -174,7 +174,7 @@ body{
 
 .navbar-toggler{
     border-color: white;
-    background-color: rgb(119, 0, 255);
+    background-color: rgb(255, 255, 255);
 }
 #menu .navbar-brand img{
     border: white dashed 1px;
@@ -248,7 +248,7 @@ body{
   }
 
   #servicos{
-    padding: 10px;
+    padding: 20px;
   }
   #servicos p{
     font-size: 20pt; 
