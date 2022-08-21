@@ -116,7 +116,7 @@ body{
 }
 
 .rodape{
-    height: 300px;
+    min-height: 300px;
     background-color: rgb(2, 1, 31);
 }
 
@@ -134,11 +134,15 @@ body{
 }
 
 .links .list-group-item{
-    background-color: rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 0, 0, 0.411);
 }
 
 .links a{
     color: rgb(151, 150, 150);
+}
+
+.botoes{
+    padding-top: 20px;
 }
 
 .copy{
