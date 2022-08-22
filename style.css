@@ -316,6 +316,7 @@ body{
 
 #listadecard .cards{
     width: 350px; 
+    height: auto;
     margin: 10px;
     text-align: center;   
     background-color:rgba(0, 0, 0, 0.301) ;
@@ -329,4 +330,9 @@ body{
     padding-bottom: 40px;
 }
 
+#espe{
+    height: 220px;
 }
+
+}
+
