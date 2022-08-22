@@ -61,6 +61,7 @@ body{
     border-top-right-radius: 30px;
     background-color: #030022;
     padding-bottom: 20px;
+    z-index: 997;
 }
 .carrinho p{
     font-size: 15pt;
@@ -89,7 +90,6 @@ body{
     border-radius: 20px;
 
     color: #fff;
-
 }
 #xImg{
     width: 40px;
@@ -169,8 +169,6 @@ form .btn{
     width: 50px;
 }
 
-
-
 /* responsividade */
 @media (max-width: 1300px){
     .carrinho{
@@ -186,3 +184,11 @@ form .btn{
     }
 }
 
+@media (max-width: 600px){
+
+    #xImg{
+        width: 40px;
+        margin-top: -60px;
+        margin-right: -300px;
+    }
+}
