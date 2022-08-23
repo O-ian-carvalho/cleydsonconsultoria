@@ -48,12 +48,12 @@ let precofinal = 0
 
 
 function qrCode(){
-    if(precofinal == 100){
+    if(precofinal == 0){
         qrcode.setAttribute('src', 'https://cdn.pixabay.com/photo/2013/07/12/14/42/qr-code-148603_640.png')
     }
 
     else{
-        qrcode.setAttribute('src', 'http://s2.glbimg.com/XtGquOjcsqtxmRFjvQsFv9oIqY0=/290x290/s.glbimg.com/jo/g1/f/original/2011/05/17/qrcode.jpg')
+        qrcode.setAttribute('src', './qrcodes/1.jpeg')
     }
 }
 
@@ -137,7 +137,7 @@ botoesGeral.addEventListener('click', ()=>{
 
 
 botaoComprar.addEventListener('click', divDeCompra)
-x.addEventListener('click', divDeCompra)
+x.addEventListener('click',  divDeCompra)
 
 curso1.addEventListener('click', ()=>{
 
