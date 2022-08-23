@@ -122,6 +122,9 @@ body{
     color: #fff;
 }
 
+#qrcode{
+    width: 90%;
+}
 form .btn{
     margin-top: 20px;
     width: 350px;
@@ -186,9 +189,33 @@ form .btn{
 
 @media (max-width: 600px){
 
+    #divComprar{
+        width: 300px;
+        background-color: rgb(56, 48, 107);
+    }
     #xImg{
-        width: 40px;
-        margin-top: -60px;
-        margin-right: -300px;
+        margin-right: -280px;
+    }
+    #divComprar h4{
+        margin-top: 30px
+    }
+
+    #divComprar form input{
+        width: 200px;
+    }
+    
+    
+
+    
+    form .btn{
+        margin-top: 20px;
+        width: 250px;
+    }
+    
+    .formi{
+        width: 250px;
+    }
+    .codigo{
+            width: 250px;
     }
 }
